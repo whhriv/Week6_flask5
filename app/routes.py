@@ -1,5 +1,6 @@
 from app import app
-from flask import render_template
+from flask import Flask, render_template
+
 
 
 @app.route('/')
@@ -11,3 +12,7 @@ def index():
 @app.route('/faves')
 def faves():
     return render_template('faves.html')
+
+
+
+

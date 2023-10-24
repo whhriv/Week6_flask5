@@ -8,39 +8,49 @@
 {% endblock %}
 
 {% block content %}
+
 <!-- Grid row -->
 <div class="row">
 
-   
+    <!-- Grid column -->
     <div class="col-md-12 d-flex justify-content-center mb-5">
-
+  
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="all">All</button>
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="1">Mountains</button>
+      <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="2">Sea</button>
+  
     </div>
-   
+    <!-- Grid column -->
   
   </div>
+  <!-- Grid row -->
   
+  <!-- Grid row -->
   <div class="gallery" id="gallery">
   
-   
-<div class="mb-3 pics animation all 2">
-<img class="img-fluid" src="./img/ski1.jpg" alt="Csfd">
+    <div class="mb-3 pics animation all 1">
+      <img class="img-fluid" src="/static/img/ski1.jpg" alt="Card image cap">
+    </div>
+ 
+    <div class="mb-3 pics animation all 1">
+      <img class="img-fluid" src="/static/img/ski2.jpg" alt="Card image cap">
     </div>
 
-    <div class="mb-3 pics animation all 1">
-      <img class="img-fluid" src="./img/ski2.jpg" alt="Csdf">
+    <div class="mb-3 pics animation all 2">
+      <img class="img-fluid" src="/static/img/ski3.jpg" alt="Card image cap">
+    </div>
+
+    <div class="mb-3 pics animation all 2">
+      <img class="img-fluid" src="/static/img/ski4.jpg" alt="Card image cap">
     </div>
  
     <div class="mb-3 pics animation all 1">
-      <img class="img-fluid" src="./img/ski4.jpg" alt="Cdfg">
+      <img class="img-fluid" src="/static/img/ski5.jpg" alt="Card image cap">
     </div>
  
-    <div class="mb-3 pics animation all 2">
-      <img class="img-fluid" src="./img/ski4.jpg" alt="Cap">
-    </div>
-    
-    <div class="mb-3 pics animation all 2">
-        <img class="img-fluid" src="./img/ski5.jpg" alt="Carp">
-      </div>
+  
   </div>
+ 
+
   
 {% endblock %}
